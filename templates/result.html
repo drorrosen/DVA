@@ -24,7 +24,7 @@
 		{% if prediction == 'None'%}
 		<h2 style="color:red;">Not a valid zipcode</h2>
 		{% elif prediction == 'Text'%}
-		<h2 style="color:orange;">You entered a text</h2>
+		<h2 style="color:orange;">You entered text. Please enter valid zipcode.</h2>
 		{% else %}
 		<h2 style="color:blue;">{{ prediction }}</h2>
 		{% endif %}
